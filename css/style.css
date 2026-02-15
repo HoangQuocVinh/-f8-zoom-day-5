@@ -65,14 +65,14 @@ body{
 }
 .form-heading {
     background-color: aquamarine;
-    font-size: 30px;
+    font-size: 1.9rem;
     font-weight: 700;
     text-align: center;
 }
 
 .form-label {
     display: block;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 600;
     margin: 14px 0 4px;
     cursor: pointer;
@@ -81,7 +81,7 @@ body{
 
 .form-input {
     padding: 2px 5px;
-    border: 2px solid gray;
+    border: 2px solid #727272;
     border-radius: 5px;
     outline: none;
 }
@@ -162,3 +162,97 @@ body{
     border-radius: 10px;
 }
 /* END REGISTER */
+
+/* START PRICING-TABLE */
+.heading-pricing {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading-pricing h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.heading-pricing p {
+    font-weight: normal;
+}
+
+.heading-pricing p:last-child {
+    margin-top: 12px;
+    font-weight: normal;
+}
+
+.content-pricing {
+    margin-top: 50px;
+    margin-left: 220px;
+    min-width: 1200px;
+    min-height: 600px;
+}
+
+.pricing-table {
+    display: inline-block;
+    min-width: 24%;
+    min-height: 60vh;
+    margin-left: 40px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.pricing-table h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.pricing-table strong {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pricing-table ul .content {
+    text-transform: capitalize;
+    color: #b0b4bd;
+    margin-top: 20px;
+}
+
+.pricing-table ul .content::before {
+    color: #b0b4bd;
+    content: "\2713";
+    font-size: 1.5rem;
+}
+
+.pricing-btn {
+    margin-top: 60px;
+    min-width: 200px;
+    display: inline-block;
+    border: none;
+    color: #000;
+    background-color: #e8e9f0;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-table:first-child:hover {
+    box-shadow: 10px 10px 5px lightblue;;
+    background-color: #90f190;
+    color: #000;
+}
+
+.pricing-table:last-child:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: #f37954;
+    color: #000;
+}
+.pricing-table:nth-child(2) {
+    background-color: #0093fc;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.pricing-btn:hover {
+    background-color: #f195f0;
+}
+/* END PRICING-TABLE */
